@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hello-world",
+  "type": "registry:block",
+  "title": "Hello World",
+  "description": "A simple hello world component.",
+  "files": [
+    {
+      "path": "registry/new-york/hello-world/hello-world.tsx",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/new-york/hello-world/use-hello-world.ts",
+      "type": "registry:hook"
+    }
+  ],
+  "cssVars": {
+    "theme": {
+      "font-heading": "Poppins, sans-serif"
+    },
+    "light": {
+      "brand": "20 14.3% 4.1%"
+    },
+    "dark": {
+      "brand": "20 14.3% 4.1%"
+    }
+  }
+}
