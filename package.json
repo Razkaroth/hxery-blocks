@@ -6,16 +6,20 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "build:app": "next build",
-    "build:registry": "shadcn build",
+    "build:registry": "bun build-registry.ts && shadcn build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@std/json": "npm:@jsr/std__json",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.503.0",
     "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "shadcn": "^2.5.0-canary.1"
+    "shadcn": "^2.5.0-canary.1",
+    "tailwind-merge": "^3.2.0"
   },
   "devDependencies": {
     "typescript": "^5",
