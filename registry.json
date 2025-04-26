@@ -2,5 +2,75 @@
   "$schema": "https://ui.shadcn.com/schema/registry.json",
   "name": "hxery",
   "homepage": "https://ui.hxery.dev",
-  "items": []
+  "items": [
+    {
+      "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+      "name": "hxery-theme",
+      "type": "registry:theme",
+      "title": "Hxery Theme",
+      "description": "A theme for Hxery.",
+      "docs": "You now need to import the iosevka.css file in your project.",
+      "files": [
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-300-normal.woff",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-300-normal.woff"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-400-normal.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-400-normal.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-500-normal.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-500-normal.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-600-normal.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-600-normal.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-300-italic  .woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-300-italic.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-400-italic.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-400-italic.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-500-italic.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-500-italic.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-600-italic.woff2",
+          "type": "registry:file",
+          "target": "public/iosevka/iosevka-latin-600-italic.woff2"
+        },
+        {
+          "path": "src/registry/hxery/theme/iosevka.css",
+          "type": "registry:file",
+          "target": "public/iosevka.css"
+        }
+      ],
+      "cssVars": {
+        "theme": {
+          "font-heading": "Poppins, sans-serif"
+        },
+        "light": {
+          "brand": "20 14.3% 4.1%"
+        },
+        "dark": {
+          "brand": "20 14.3% 4.1%"
+        }
+      },
+      "css": {
+        "@import": "url(/iosevka.css)"
+      }
+    }
+  ]
 }
