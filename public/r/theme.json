@@ -5,7 +5,7 @@
   "title": "Hxery, srcery based theme",
   "description": "Hxery is a theme for shadcn/ui that implements the srcery color scheme.",
   "registryDependencies": [
-    "https://ui.hxery.dev/r/hxery-colors.json"
+    "https://ui.hxery.dev/r/colors.json"
   ],
   "files": [
     {
