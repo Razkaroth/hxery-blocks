@@ -1,0 +1,15 @@
+
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hxery-colors",
+  "type": "registry:style",
+  "title": "Srcery colors",
+  "description": "Srcery colors for shadcn/ui.",
+  "cssVars": {
+    "theme": {
+      "--color-srcery-black": "rgb(28, 27, 25)",
+      "--color-srcery-black-bright": "rgb(145, 129, 117)",
+      "--color-srcery-black-hard": "rgb(18, 18, 18)"
+    }
+  }
+}
