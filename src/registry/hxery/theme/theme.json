@@ -12,39 +12,19 @@
       "target": "~/public/iosevka/iosevka-latin-300-normal.woff"
     },
     {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-400-normal.woff2",
+      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-400-normal.woff",
       "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-400-normal.woff2"
+      "target": "~/public/iosevka/iosevka-latin-400-normal.woff"
     },
     {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-500-normal.woff2",
+      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-500-normal.woff",
       "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-500-normal.woff2"
+      "target": "~/public/iosevka/iosevka-latin-500-normal.woff"
     },
     {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-600-normal.woff2",
+      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-600-normal.woff",
       "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-600-normal.woff2"
-    },
-    {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-300-italic.woff2",
-      "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-300-italic.woff2"
-    },
-    {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-400-italic.woff2",
-      "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-400-italic.woff2"
-    },
-    {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-500-italic.woff2",
-      "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-500-italic.woff2"
-    },
-    {
-      "path": "src/registry/hxery/theme/iosevka/files/iosevka-latin-600-italic.woff2",
-      "type": "registry:file",
-      "target": "~/public/iosevka/iosevka-latin-600-italic.woff2"
+      "target": "~/public/iosevka/iosevka-latin-600-normal.woff"
     },
     {
       "path": "src/registry/hxery/theme/iosevka.css",
