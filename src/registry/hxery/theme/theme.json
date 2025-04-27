@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "hxery/theme",
+  "name": "theme",
   "type": "registry:theme",
   "title": "Hxery, srcery based theme",
   "description": "Hxery is a theme for shadcn/ui that implements the srcery color scheme.",
