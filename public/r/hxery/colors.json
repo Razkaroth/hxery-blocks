@@ -1,7 +1,7 @@
 
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "hxery/colors",
+  "name": "hxery-colors",
   "type": "registry:theme",
   "author": "Razkaroth - colors from srcery.sh",
   "title": "Srcery colors",
