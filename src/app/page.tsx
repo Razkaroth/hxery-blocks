@@ -2,6 +2,8 @@ import Dashboard from "./dashboard/page";
 
 export default function Page() {
   return (
-    <Dashboard />
+    <div className=".dark" data-theme="dark">
+      <Dashboard />
+    </div>
   );
 }

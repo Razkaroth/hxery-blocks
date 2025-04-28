@@ -1,4 +1,3 @@
-
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "colors",
@@ -11,53 +10,81 @@
       "--srcery-black": "rgb(28, 27, 25)",
       "--srcery-black-bright": "rgb(145, 129, 117)",
       "--srcery-black-hard": "rgb(18, 18, 18)",
-
       "--srcery-white": "rgb(208, 191, 161)",
       "--srcery-white-bright": "rgb(252, 232, 195)",
       "--srcery-white-hard": "rgb(180, 161, 131)",
-
       "--srcery-gray-1": "rgb(88, 88, 88)",
       "--srcery-gray-2": "rgb(78, 78, 78)",
       "--srcery-gray-3": "rgb(68, 68, 68)",
       "--srcery-gray-4": "rgb(58, 58, 58)",
       "--srcery-gray-5": "rgb(48, 48, 48)",
       "--srcery-gray-6": "rgb(38, 38, 38)",
-
       "--srcery-silver": "rgb(180, 180, 180)",
       "--srcery-silver-bright": "rgb(220, 220, 220)",
       "--srcery-silver-hard": "rgb(140, 140, 140)",
-
       "--srcery-red": "rgb(239, 47, 39)",
       "--srcery-red-bright": "rgb(247, 83, 65)",
       "--srcery-red-hard": "rgb(160, 37, 30)",
-
       "--srcery-stone": "rgb(180, 160, 140)",
       "--srcery-stone-bright": "rgb(200, 180, 160)",
       "--srcery-stone-hard": "rgb(160, 140, 120)",
-
       "--srcery-orange": "rgb(215, 95, 0)",
       "--srcery-orange-bright": "rgb(255, 135, 0)",
       "--srcery-orange-hard": "rgb(145, 75, 0)",
-
       "--srcery-yellow": "rgb(251, 184, 41)",
       "--srcery-yellow-bright": "rgb(254, 208, 110)",
       "--srcery-yellow-hard": "rgb(180, 130, 0)",
-
       "--srcery-green": "rgb(81, 159, 80)",
       "--srcery-green-bright": "rgb(152, 188, 55)",
       "--srcery-green-hard": "rgb(30, 100, 30)",
-
       "--srcery-blue": "rgb(44, 120, 191)",
       "--srcery-blue-bright": "rgb(104, 168, 228)",
       "--srcery-blue-hard": "rgb(0, 0, 128)",
-
       "--srcery-cyan": "rgb(10, 174, 179)",
       "--srcery-cyan-bright": "rgb(83, 253, 233)",
       "--srcery-cyan-hard": "rgb(0, 128, 128)",
-
       "--srcery-magenta": "rgb(225, 44, 109)",
       "--srcery-magenta-bright": "rgb(255, 92, 143)",
-      "--srcery-magenta-hard": "rgb(128, 0, 64)"
+      "--srcery-magenta-hard": "rgb(128, 0, 64)",
+      "--color-srcery-black": "var(--srcery-black)",
+      "--color-srcery-black-bright": "var(--srcery-black-bright)",
+      "--color-srcery-black-hard": "var(--srcery-black-hard)",
+      "--color-srcery-white": "var(--srcery-white)",
+      "--color-srcery-white-bright": "var(--srcery-white-bright)",
+      "--color-srcery-white-hard": "var(--srcery-white-hard)",
+      "--color-srcery-gray-1": "var(--srcery-gray-1)",
+      "--color-srcery-gray-2": "var(--srcery-gray-2)",
+      "--color-srcery-gray-3": "var(--srcery-gray-3)",
+      "--color-srcery-gray-4": "var(--srcery-gray-4)",
+      "--color-srcery-gray-5": "var(--srcery-gray-5)",
+      "--color-srcery-gray-6": "var(--srcery-gray-6)",
+      "--color-srcery-silver": "var(--srcery-silver)",
+      "--color-srcery-silver-bright": "var(--srcery-silver-bright)",
+      "--color-srcery-silver-hard": "var(--srcery-silver-hard)",
+      "--color-srcery-red": "var(--srcery-red)",
+      "--color-srcery-red-bright": "var(--srcery-red-bright)",
+      "--color-srcery-red-hard": "var(--srcery-red-hard)",
+      "--color-srcery-stone": "var(--srcery-stone)",
+      "--color-srcery-stone-bright": "var(--srcery-stone-bright)",
+      "--color-srcery-stone-hard": "var(--srcery-stone-hard)",
+      "--color-srcery-orange": "var(--srcery-orange)",
+      "--color-srcery-orange-bright": "var(--srcery-orange-bright)",
+      "--color-srcery-orange-hard": "var(--srcery-orange-hard)",
+      "--color-srcery-yellow": "var(--srcery-yellow)",
+      "--color-srcery-yellow-bright": "var(--srcery-yellow-bright)",
+      "--color-srcery-yellow-hard": "var(--srcery-yellow-hard)",
+      "--color-srcery-green": "var(--srcery-green)",
+      "--color-srcery-green-bright": "var(--srcery-green-bright)",
+      "--color-srcery-green-hard": "var(--srcery-green-hard)",
+      "--color-srcery-blue": "var(--srcery-blue)",
+      "--color-srcery-blue-bright": "var(--srcery-blue-bright)",
+      "--color-srcery-blue-hard": "var(--srcery-blue-hard)",
+      "--color-srcery-cyan": "var(--srcery-cyan)",
+      "--color-srcery-cyan-bright": "var(--srcery-cyan-bright)",
+      "--color-srcery-cyan-hard": "var(--srcery-cyan-hard)",
+      "--color-srcery-magenta": "var(--srcery-magenta)",
+      "--color-srcery-magenta-bright": "var(--srcery-magenta-bright)",
+      "--color-srcery-magenta-hard": "var(--srcery-magenta-hard)"
     }
   }
 }

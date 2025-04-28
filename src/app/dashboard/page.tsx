@@ -32,6 +32,9 @@ export default function Page() {
               </div>
               <DataTable data={data} />
             </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+            </p>
           </div>
         </div>
       </SidebarInset>
