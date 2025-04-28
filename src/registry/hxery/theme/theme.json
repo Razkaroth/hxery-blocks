@@ -18,7 +18,13 @@
   "cssVars": {
     "theme": {
       "font-heading": "Iosevka, sans-serif",
-      "font-body": "Geist mono, sans-serif"
+      "font-body": "Geist mono, sans-serif",
+      "font-sans": "var(--font-geist-sans)",
+      "font-mono": "var(--font-geist-mono)",
+      "radius-sm": "calc(var(--radius) - 4px)",
+      "radius-md": "calc(var(--radius) - 2px)",
+      "radius-lg": "var(--radius)",
+      "radius-xl": "calc(var(--radius) + 4px)"
     },
     "dark": {
       "radius": "0",
@@ -34,7 +40,7 @@
       "secondary-foreground": "var(--srcery-white)",
       "muted": "var(--srcery-gray-1)",
       "muted-foreground": "var(--srcery-silver)",
-      "accent": "var(--srcery-black-cyan)",
+      "accent": "var(--srcery-white-hard)",
       "accent-foreground": "var(--srcery-black-hard)",
       "destructive": "var(--srcery-red)",
       "border": "var(--srcery-white)",
@@ -65,9 +71,9 @@
       "popover-foreground": "var(--srcery-black)",
       "primary": "var(--srcery-black)",
       "primary-foreground": "var(--srcery-white)",
-      "secondary": "var(--srcery-black-bright)",
+      "secondary": "var(--srcery-white-bright)",
       "secondary-foreground": "var(--srcery-black)",
-      "muted": "var(--srcery-gray-1)",
+      "muted": "var(--srcery-white-hard)",
       "muted-foreground": "var(--srcery-black-bright)",
       "accent": "var(--srcery-black-cyan)",
       "accent-foreground": "var(--srcery-black-hard)",
