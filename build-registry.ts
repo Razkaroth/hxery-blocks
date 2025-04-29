@@ -77,7 +77,7 @@ if (!fs.existsSync(publicLPath)) {
 
 // Function to replace URLs in file content
 function replaceUrls(content: string): string {
-  return content.replace(/https:\/\/ui\.hxery\.dev\//g, "http://localhost:3000/");
+  return content.replace(/https:\/\/ui\.hxery\.dev\/r/g, "http://localhost:3000/l");
 }
 
 // Copy and process files
