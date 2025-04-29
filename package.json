@@ -6,7 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "build:app": "next build",
-    "build:registry": "bun build-registry.ts && shadcn build",
+    "build:registry": "bun build-registry.ts",
     "start": "next start",
     "lint": "next lint"
   },

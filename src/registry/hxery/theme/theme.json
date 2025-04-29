@@ -6,7 +6,7 @@
   "description": "Hxery is a theme for shadcn/ui that implements the srcery color scheme.",
   "docs": "Don't forget to download iosevka font and import it in your project.",
   "registryDependencies": [
-    "http://localhost:3000/r/colors.json"
+    "https://ui.hxery.dev/r/colors.json"
   ],
   "files": [
     {

@@ -1,9 +1,10 @@
 import fs from "fs";
 import path from "path";
+import { execSync } from "child_process";
 
 interface Registry {
-  items: Record<string, any>[];
-  [key: string]: string | Record<string, any>[];
+  items: Record<string, unknown>[];
+  [key: string]: string | Record<string, unknown>[];
 }
 
 interface FileStats {
@@ -62,4 +63,39 @@ try {
   console.error("Error writing to registry.json:", error);
 }
 
+// Run shadcn build
+execSync("bun shadcn build");
+
+// Copy public/r/* to public/l/* and replace URLs
+const publicRPath = path.join(__dirname, "public/r");
+const publicLPath = path.join(__dirname, "public/l");
+
+// Ensure public/l directory exists
+if (!fs.existsSync(publicLPath)) {
+  fs.mkdirSync(publicLPath, { recursive: true });
+}
+
+// Function to replace URLs in file content
+function replaceUrls(content: string): string {
+  return content.replace(/https:\/\/ui\.hxery\.dev\//g, "http://localhost:3000/");
+}
+
+// Copy and process files
+walkSync(publicRPath, (filePath, stats) => {
+  if (stats.isFile()) {
+    const relativePath = path.relative(publicRPath, filePath);
+    const targetPath = path.join(publicLPath, relativePath);
+    
+    // Ensure target directory exists
+    const targetDir = path.dirname(targetPath);
+    if (!fs.existsSync(targetDir)) {
+      fs.mkdirSync(targetDir, { recursive: true });
+    }
+
+    // Read, process, and write file
+    const content = fs.readFileSync(filePath, "utf8");
+    const processedContent = replaceUrls(content);
+    fs.writeFileSync(targetPath, processedContent);
+  }
+});
 
